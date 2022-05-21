@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width:  100%;
+    height: 100vh;
+}
+.left_field{
+    background: darkgray;
+    padding: 15px;
+    width: 20%;
+}
+.left_field > *{
+    margin-top: 5px;
+}
+.right_field{
+    background: black;
+    width: 80%;
+    padding: 10%;
+}
+.keyboard{
+    display: grid;
+    background: white;
+    width: 50%;
+    height: 100%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
